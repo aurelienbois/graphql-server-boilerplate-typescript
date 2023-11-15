@@ -1,0 +1,10 @@
+query Posts {
+    posts {
+        id
+        text
+        user {
+            username
+            avatar
+        }
+    }
+}
