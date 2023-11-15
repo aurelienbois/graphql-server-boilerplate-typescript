@@ -59,6 +59,15 @@ query Posts {
 }
 ```
 
+cURL :
+
+```
+curl -X POST \
+-H "Content-Type: application/json" \
+-d '{"query":"query Posts { posts { id text user { username avatar } } }"}' \
+http://localhost:8000/graphql
+```
+
 ## Contributing
 
 Contributions are welcome! If you have any improvements or new features to suggest, please feel free to open an issue or create a pull request.
