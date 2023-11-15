@@ -1,0 +1,13 @@
+# Dépendances
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environnement runtime
+.env
+
+# Fichiers .DS_Store
+**/.DS_Store
