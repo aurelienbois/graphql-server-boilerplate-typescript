@@ -11,3 +11,5 @@ yarn-error.log*
 
 # Fichiers .DS_Store
 **/.DS_Store
+
+pnpm-lock.yaml
