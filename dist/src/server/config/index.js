@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     development: {
-        username: "devuser",
-        password: "PASSWORD",
-        database: "graphbook_dev",
+        username: "root",
+        password: "root",
+        database: "graphql-sequelize",
         host: "localhost",
         dialect: "mysql",
         pool: {
