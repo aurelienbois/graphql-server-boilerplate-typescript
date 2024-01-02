@@ -32,7 +32,7 @@ for (const name of Object.keys(services)) {
   if (name === "graphql") {
     ;(async () => {
       await services[name].start()
-      services[name].applyMiddleware({ app: app as any }) // régler le conflit de versions
+      services[name].applyMiddleware({ app: app as any })
     })()
   } else {
     app.use(`/$name`, services[name])
