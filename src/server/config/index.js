@@ -1,18 +1,18 @@
 "use strict";
-exports.__esModule = true;
-exports["default"] = {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
     development: {
         username: "root",
-        password: "root",
-        database: "graphql-sequelize",
+        password: "PASSWORD",
+        database: "graphbook_dev",
         host: "localhost",
         dialect: "mysql",
         pool: {
             max: 5,
             min: 0,
             acquire: 30000,
-            idle: 10000
-        }
+            idle: 10000,
+        },
     },
     production: {
         host: process.env.host,
@@ -25,7 +25,7 @@ exports["default"] = {
             max: 5,
             min: 0,
             acquire: 30000,
-            idle: 10000
-        }
-    }
+            idle: 10000,
+        },
+    },
 };
